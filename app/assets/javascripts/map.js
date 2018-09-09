@@ -61,7 +61,7 @@ function initMap() {
       }
 
       if (year16a == true) {
-        getMarker("../json/geocode/a16.json", "img/icon-354359_640.png", new google.maps.Size(20, 30));
+        getMarker("a16.json", "img/icon-354359_640.png", new google.maps.Size(20, 30));
       }
 
     });

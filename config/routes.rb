@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'users/index'
+
+  get 'users/show'
+
   root to: 'maps#index'
   get '/refresh', to: 'maps#refresh'
 
